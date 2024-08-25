@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Scrolling Announcement Bar */
+.announcement-bar {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 10px 0; /* Vertical padding */
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    z-index: 9999; /* Ensures it stays on top of other elements */
+}
+
+/* Marquee Text Style */
+.announcement-bar marquee {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the entire navbar */
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Move the logo and text slightly down */
+    margin-bottom: 10px; /* Space below the logo */
+    text-align: center; /* Ensure text is centered */
+}
+
+.logo-container {
+    margin-bottom: 5px; /* Space between logo and text */
+}
+
+.logo {
+    height: 60px; /* Logo size */
+}
+
+.brand-text {
+    font-weight: bold;
+    font-size: 18px; /* Text size */
+    margin-left: 0; /* Text directly below the logo */
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center; /* Center the nav items */
+    margin-top: -10px; /* Adjust to make sure the logo aligns directly above Products */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    color: #666; /* Neutral color */
+    padding: 0 15px; /* Add padding between nav items */
+    font-size: 16px; /* Font size for main nav */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff0000; /* Highlight color on hover */
+}
+
+.navbar-nav .badge {
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #ff0000; /* Red badge background */
+    color: white;
+}
+
+/* Secondary Navigation Menu */
+.secondary-nav {
+    background-color: #f8f9fa; /* Light grey background */
+    border-top: 1px solid #e7e7e7; /* Subtle border on top */
+    padding: 10px 0;
+    text-align: center; /* Keep the secondary nav centered */
+    margin-top: -20px; /* Remove the space between the navs */
+}
+
+.secondary-nav .nav {
+    justify-content: flex-start; /* Align items to the left initially */
+    margin-left: 70px; /* Adjust this value to move the items more to the right */
+}
+
+.secondary-nav .nav-link {
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    padding: 5px 15px;
+    font-size: 20px; /* Increased font size for secondary nav items */
+}
+
+.secondary-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+/* Banner Section */
+.banner-container {
+    text-align: center;
+    margin-bottom: 40px; /* Space below the banner */
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+/* Categories Section */
+.categories-section {
+    background-color: #f5f5f5; /* Light grey background */
+    padding: 60px 0; /* Vertical padding */
+}
+
+.categories-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.categories-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.category-item {
+    width: 23%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+}
+
+.category-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Services Section */
+.services-section {
+    background-color: #ffffff;
+    padding: 60px 0; /* Vertical padding */
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-item {
+    text-align: center;
+    max-width: 250px;
+}
+
+.service-item i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Logos Section */
+.logo-section {
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.logo-section .brand-logo {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.logo-section .col-md-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    font-size: 14px;
+}
+
+.footer-section h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .form-control {
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+.footer-section .btn-primary {
+    border-radius: 0;
+    background-color: #333;
+    border: none;
+}
+
+.footer-section .list-inline-item a img {
+    width: 40px;
+    height: auto;
+}
